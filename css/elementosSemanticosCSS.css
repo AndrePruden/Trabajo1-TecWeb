@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     border: 0;
     box-sizing: border-box;
 }
-html{
+html {
     height: 100%;
 }
 body {
@@ -12,34 +12,32 @@ body {
     display: grid;
     grid-template: auto 1fr auto / auto 1fr auto;
 }
-header{
+header {
     padding: 15px;
-    background-color: rgba(71,109,147,1);
-    color: white;
-    grid-column: 1/4;
-}
-aside{
-    padding: 15px 45px;
-    background-color: rgba(144,94,65, 1);
-    color: white;
-    
-}
-.aside-left{
-    grid-column: 1 / 2;
-}
-.aside-right{
-    grid-column: 3 / 4;
-}
-main{
-    padding: 15px;    
-    background-color: rgba(153,127,40, 1);
-    color: white;
-    grid-column: 2 / 3;
-}
-footer{
-    padding: 15px;
-    background-color: rgba(71,109,147,1);
+    background-color: rgba(50, 150, 50, 1); /* Verde */
     color: white;
     grid-column: 1 / 4;
 }
-
+aside {
+    padding: 15px 45px;
+    background-color: rgba(255, 105, 180, 1); /* Rosa */
+    color: white;
+}
+.aside-left {
+    grid-column: 1 / 2;
+}
+.aside-right {
+    grid-column: 3 / 4;
+}
+main {
+    padding: 15px;    
+    background-color: rgba(30, 144, 255, 1); /* Azul brillante */
+    color: white;
+    grid-column: 2 / 3;
+}
+footer {
+    padding: 15px;
+    background-color: rgba(50, 150, 50, 1); /* Verde */
+    color: white;
+    grid-column: 1 / 4;
+}
